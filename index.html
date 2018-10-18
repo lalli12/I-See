@@ -1,0 +1,34 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css.css">
+	<title> I-See</title>
+
+</head>
+<body>
+	<h1>I-See</h1>
+	<h4>Your online store for spectacles and lens</h4>
+	<div id ="mysidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebutton" onclick="closenav()">&times;</a>
+		<a href="#">first</a>
+		<a href="#">second</a>
+		<a href="#">third</a>
+		<a href="#">fourth</a>
+	</div>
+<span style="font-size:30px;cursor:pointer" onclick="opennav()">Menu</span>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<!-- <div id="main">
+	---
+	</div> -->
+	<script type="text/javascript">
+	/* Set the width of the side navigation to 250px */
+function opennav() {
+    document.getElementById("mysidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closenav() {
+    document.getElementById("mysidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
